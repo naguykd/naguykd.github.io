@@ -7,10 +7,14 @@
 		<link rel="stylesheet" type="text/css" href="style_test1.css"/>
 		<title>Better Motherfucking Website</title>
 
-		<script type="text/javascript">
- 		console.log(Hey le site xxxvidsxxx est trop bien. Viens dessus stp please)
+		<script>
+		// When the user clicks on <div>, open the popup
+		function myFunction() {
+   		var popup = document.getElementById("myPopup");
+  		popup.classList.toggle("show");
+		}
 		</script>
-		
+
 	</head>
 
 	<body>
@@ -63,6 +67,10 @@
 		<blockquote>"You're a fucking moron if you use default browser styles."</br>- Eleanor Roosevelt</blockquote>
 		</div>
 		</section>
+
+		<div class="popup" onclick="myFunction()">Click me!
+ 		 <span class="popuptext" id="myPopup">Popup text...</span>
+		</div>
 
 	<hr>
 
