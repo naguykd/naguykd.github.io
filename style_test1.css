@@ -8,12 +8,14 @@ body
 	width: 60%;
 }
 
-p
+p,ul,blockquote,aside
 {
 	color: blue;
+	font-family: "papyrus";
 }
 
 h1,h2,h3
 {
 	color: green;
+	font-family: "Comic Sans MS";
 }
