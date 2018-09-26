@@ -10,13 +10,13 @@ body
 
 p,ul,blockquote,aside
 {
-	color: blue;
+	color: #34495e;
 	font-family: "papyrus";
 }
 
 h1,h2,h3
 {
-	color: green;
+	color: #7befb2;
 	font-family: "Comic Sans MS";
 }
 
